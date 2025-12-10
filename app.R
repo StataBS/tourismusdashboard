@@ -382,7 +382,51 @@ tags$div(
   class = "footer-container",
   tags$div(
     class = "footer-inner",
-
+    tags$a(
+      href = "https://github.com/opendatabs/tourismusdashboard",
+      class = "about",
+      tags$span(icon("github"), "GitHub"),
+      
+      tags$svg(
+        viewBox = "0 0 20 20",
+        fill = "none",
+        xmlns = "http://www.w3.org/2000/svg",
+        class = "arrow-up-right",
+        height = "20px",
+        width = "20px",
+        tags$path(
+          d = "M6.52552 13.6828L13.8912 6.31715M13.8912 6.31715L6.82015 6.31715M13.8912 6.31715L13.8912 13.3882",
+          stroke = "currentColor",
+          `stroke-width` = "2",
+          `stroke-linecap` = "round",
+          `stroke-linejoin` = "round"
+        )
+      )
+    ),
+    tags$a(
+      href = "https://data.bs.ch/explore/dataset/100414/table/?disjunctive.hotelkategorie&disjunctive.herkunftsland&sort=datum",
+      class = "about",
+      tags$span("Open Data BS"),
+      
+      tags$svg(
+        viewBox = "0 0 20 20",
+        fill = "none",
+        xmlns = "http://www.w3.org/2000/svg",
+        class = "arrow-up-right",
+        height = "20px",
+        width = "20px",
+        tags$path(
+          d = "M6.52552 13.6828L13.8912 6.31715M13.8912 6.31715L6.82015 6.31715M13.8912 6.31715L13.8912 13.3882",
+          stroke = "currentColor",
+          `stroke-width` = "2",
+          `stroke-linecap` = "round",
+          `stroke-linejoin` = "round"
+        )
+      )
+    ),
+    br(),
+    br(),
+    
     tags$div(
       class = "footer-links",
       tags$a(href = "https://www.bs.ch/", "Startseite", class = "link-footer"),
@@ -390,15 +434,6 @@ tags$div(
       tags$a(href = "https://www.bs.ch/impressum", "Impressum", class = "link-footer"),
       tags$a(href = "https://www.bs.ch/ombudsstelle", "Ombudsstelle", class = "link-footer")
     ),
-
-    tags$div(
-      class = "footer-icon",
-      tags$a(href = "https://github.com/opendatabs/tourismusdashboard", "Tourismus-Dashboard auf GitHub ",
-      target = "_blank",  # opens in a new tab
-      icon("github")  # Font Awesome GitHub icon
-    )
-    ),
-    br(),
     
     tags$div(
       class = "footer-copyright",
