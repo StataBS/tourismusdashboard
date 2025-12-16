@@ -115,6 +115,15 @@ ui <- tagList(
     secondary = "white"
   ),
   header = tags$head(
+    tags$title("Tourismus | Kanton Basel-Stadt"),
+    
+    tags$meta(name = "description", content = "Aktuelle Zahlen zum Thema Tourismus im Kanton Basel-Stadt auf einen Blick."),
+    
+    # # Open Graph Meta-Tags
+    tags$meta(property = "og:title", content = "Tourismus | Kanton Basel-Stadt"),
+    tags$meta(property = "og:description", content = "Aktuelle Zahlen zum Thema Tourismus im Kanton Basel-Stadt auf einen Blick."),
+    tags$meta(property = "og:url", content = "https://statistik.bs.ch/tourismusdashboard/"),
+    tags$meta(property = "og:type", content = "website"),
     tags$script(
       HTML(
         "
