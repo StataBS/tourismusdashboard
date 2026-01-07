@@ -413,7 +413,7 @@ tags$div(
       )
     ),
     tags$a(
-      href = "https://data.bs.ch/explore/dataset/100414/table/?disjunctive.hotelkategorie&disjunctive.herkunftsland&sort=datum",
+      href = "https://data.bs.ch/explore/?q=tags%3D%22tourismus_dashboard%22&disjunctive.features&disjunctive.modified&disjunctive.publisher&disjunctive.keyword&disjunctive.theme&disjunctive.language&sort=modified",
       class = "about",
       tags$span("Open Data BS"),
       

@@ -70,6 +70,14 @@ tourismus_events <- tourismus_events %>%
   bind_rows(data.frame(
     Datum = as.Date(c("2025-08-20")),
     Event = "UEFA Champions League (FCB - FCK)"
+  )) %>% 
+  bind_rows(data.frame(
+    Datum = as.Date(c("2025-11-01", "2025-11-02")),
+    Event = rep("Find Your Flow Festival 2025", 2)
+  )) %>% 
+  bind_rows(data.frame(
+    Datum = as.Date(c(paste0("2025-11-", c(15:19)))),
+    Event = rep("Igeho 2025", 5)
   )) 
 
 
