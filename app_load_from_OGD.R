@@ -78,6 +78,10 @@ tourismus_events <- tourismus_events %>%
   bind_rows(data.frame(
     Datum = as.Date(c(paste0("2025-11-", c(15:19)))),
     Event = rep("Igeho 2025", 5)
+  )) %>% 
+  bind_rows(data.frame(
+    Datum = as.Date(c(paste0("2024-01-", c(10:14)), paste0("2025-01-", c(9:12)), paste0("2026-01-", c(8:11)))),
+    Event = rep("Longines CHI Classics Basel", 13)
   )) 
 
 

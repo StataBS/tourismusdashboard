@@ -446,7 +446,7 @@ tags$div(
     
     tags$div(
       class = "footer-copyright",
-      "© 2025 Basel-Stadt"
+      paste0("© ", format(Sys.Date(), "%Y"), " Basel-Stadt")
       )
     )
   )
